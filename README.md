@@ -86,14 +86,17 @@ docker rmi localhost:5000/web-demo-ivutpa:1.0
 ```
 <img width="1354" height="77" alt="image" src="https://github.com/user-attachments/assets/51c09f9b-9136-4f43-aa58-e659bf6287bc" />  
 
+
 Образ пропал:
 <img width="1081" height="122" alt="image" src="https://github.com/user-attachments/assets/66911609-8f99-4fba-8efd-b43cad83367d" />  
+
 
 Теперь выполним pull из registry:
 ```bash
 docker pull localhost:5000/web-demo-ivutpa:1.0
 ```
 <img width="1004" height="117" alt="image" src="https://github.com/user-attachments/assets/e4b67ed2-0942-41f6-bb1c-9381992bac93" />  
+
 
 Образ снова появился:
 <img width="1073" height="145" alt="image" src="https://github.com/user-attachments/assets/eb2a6064-24c7-439e-8ebc-3cb73ff66a45" />
