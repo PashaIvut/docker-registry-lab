@@ -72,7 +72,7 @@ docker push localhost:5000/web-demo-ivutpa:1.0
 curl http://localhost:5000/v2/_catalog
 ```
 <img width="885" height="158" alt="image" src="https://github.com/user-attachments/assets/b2b1b31b-ff69-47cd-b2af-f93b1b716e83" />  
-
+  
 Проверим список тегов:
 ```bash
 curl http://localhost:5000/v2/web-demo-ivutpa/tags/list
