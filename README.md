@@ -30,7 +30,19 @@ _catalog - специальный эндпоинт, возвращающий с�
 ### 3) Мини-проект
 Создадим папку web-demo-ivutpa и файлы index.html и Dockerfile.
 <img width="889" height="255" alt="image" src="https://github.com/user-attachments/assets/bfdaabcf-5a8b-46c7-a4bf-7dcd451e5f90" />  
-<img width="697" height="97" alt="image" src="https://github.com/user-attachments/assets/0762ac38-d69a-4244-a269-a4b375e3779a" />
+<img width="697" height="97" alt="image" src="https://github.com/user-attachments/assets/0762ac38-d69a-4244-a269-a4b375e3779a" />  
+
+### 4) Сборка образа
+Соберем образ с помощью команды:
+```bash
+docker build -t web-demo-ivutpa:1.0 .
+```
+
+Разбор команды:  
+docker build - команда для сборки образа из Dockerfile  
+-t - флаг --tag - присвоить имя и тег образу  
+web-demo-ivutpa:1.0	- имя образа: web-demo-ivutpa, тег: 1.0 (версия)  
+.	- контекст сборки - текущая папка 
 
 
 
