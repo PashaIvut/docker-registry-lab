@@ -1,1 +1,1 @@
-# docker-registry-lab
+# ЛР: локальный приватный Docker Registry
