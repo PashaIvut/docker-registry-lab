@@ -127,6 +127,7 @@ docker build -t web-demo-ivutpa:2.0 .
 <img width="1871" height="399" alt="image" src="https://github.com/user-attachments/assets/6b808a01-f3a8-460b-b084-6cbd9dfad496" />  
 
 
+
 Перетегируем для registry:
 ```bash
 docker tag web-demo-ivutpa:2.0 localhost:5000/web-demo-ivutpa:2.0
