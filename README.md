@@ -66,8 +66,18 @@ docker push localhost:5000/web-demo-ivutpa:1.0
 ```
 <img width="1161" height="283" alt="image" src="https://github.com/user-attachments/assets/ca0915ca-66d5-490c-bd2c-5c024bac9276" />
 
+### 7) Проверка, что образ реально в registry
+Проверим список репозиториев командой:
+```bash
+curl http://localhost:5000/v2/_catalog
+```
+<img width="885" height="158" alt="image" src="https://github.com/user-attachments/assets/b2b1b31b-ff69-47cd-b2af-f93b1b716e83" />  
 
-
+Проверим список тегов:
+```bash
+curl http://localhost:5000/v2/web-demo-ivutpa/tags/list
+```
+<img width="1088" height="147" alt="image" src="https://github.com/user-attachments/assets/6517ad56-367d-4c7c-a28f-128b1f936301" />
 
 
 
