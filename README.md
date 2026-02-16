@@ -39,7 +39,7 @@ docker build -t web-demo-ivutpa:1.0 .
 ```
 
 Разбор команды:  
-docker build - команда для сборки образа из Dockerfile  
+**docker build** - команда для сборки образа из Dockerfile  
 -t - флаг --tag - присвоить имя и тег образу  
 web-demo-ivutpa:1.0	- имя образа: web-demo-ivutpa, тег: 1.0 (версия)  
 .	- контекст сборки - текущая папка 
