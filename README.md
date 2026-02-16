@@ -85,10 +85,10 @@ curl http://localhost:5000/v2/web-demo-ivutpa/tags/list
 docker rmi localhost:5000/web-demo-ivutpa:1.0
 ```
 <img width="1354" height="77" alt="image" src="https://github.com/user-attachments/assets/51c09f9b-9136-4f43-aa58-e659bf6287bc" />  
-
+<br>
 
 Образ пропал:
-<img width="1081" height="122" alt="image" src="https://github.com/user-attachments/assets/66911609-8f99-4fba-8efd-b43cad83367d" />  
+<img width="1081" height="122" alt="image" src="https://github.com/user-attachments/assets/66911609-8f99-4fba-8efd-b43cad83367d" />    
 
 
 Теперь выполним pull из registry:
