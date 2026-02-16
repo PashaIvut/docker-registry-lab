@@ -112,6 +112,37 @@ docker run -d -p 8080:80 --name web-1 localhost:5000/web-demo-ivutpa:1.0
 <img width="422" height="282" alt="image" src="https://github.com/user-attachments/assets/828c4aae-e810-495d-a6e1-520424b69191" />   
 (Проблема с кодировкой, но все работает)
 
+### 10) Самостоятельная часть
+#### 10.1 Версия 2.0
+Обновим index.html:
+<img width="341" height="267" alt="image" src="https://github.com/user-attachments/assets/2dc147bf-7651-426d-9cd1-b9eb5e8a539b" />  
+
+Соберем образ с тегом 2.0 командой:
+```bash
+docker build -t web-demo-ivutpa:2.0 .
+```
+<img width="1871" height="399" alt="image" src="https://github.com/user-attachments/assets/6b808a01-f3a8-460b-b084-6cbd9dfad496" />  
+
+Перетегируем для registry:
+```bash
+docker tag web-demo-ivutpa:2.0 localhost:5000/web-demo-ivutpa:2.0
+```
+
+Запушим в registry командой:
+```bash
+docker push localhost:5000/web-demo-ivutpa:2.0
+```
+<img width="1189" height="284" alt="image" src="https://github.com/user-attachments/assets/406b3d15-3ab8-4aed-a01b-e214c9c5a39f" />  
+
+Проверим теги через API:
+```bash
+curl http://localhost:5000/v2/web-demo-ivanov/tags/list
+```
+<img width="1094" height="158" alt="image" src="https://github.com/user-attachments/assets/0ceb0c9b-5441-49d0-bb4f-8495bc2f4717" />
+
+
+
+
 
 
 
