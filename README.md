@@ -148,7 +148,7 @@ curl http://localhost:5000/v2/web-demo-ivanov/tags/list
 <img width="1094" height="158" alt="image" src="https://github.com/user-attachments/assets/0ceb0c9b-5441-49d0-bb4f-8495bc2f4717" />
 
 
-10.2 Второй запуск на другом порту
+10.2 Второй запуск на другом порту  
 Запустим второй контейнер с версией 2.0:
 <img width="1295" height="51" alt="image" src="https://github.com/user-attachments/assets/05cca5da-bbbe-4a68-8438-74b5c87ecf4c" />  
 
