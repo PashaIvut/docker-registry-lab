@@ -59,8 +59,12 @@ localhost:5000/web-demo-ivutpa:1.0 — новый тег с адресом regis
 
 <img width="798" height="73" alt="image" src="https://github.com/user-attachments/assets/b4e89137-1a77-4780-a057-0e6e0eb72bc4" />
 
-
-
+### 6) Push в registry
+Запушим образ в registry с помощью команды:
+```bash
+docker push localhost:5000/web-demo-ivutpa:1.0
+```
+<img width="1161" height="283" alt="image" src="https://github.com/user-attachments/assets/ca0915ca-66d5-490c-bd2c-5c024bac9276" />
 
 
 
