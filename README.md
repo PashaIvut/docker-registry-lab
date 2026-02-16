@@ -53,9 +53,9 @@ docker build -t web-demo-ivutpa:1.0 .
 docker tag web-demo-ivutpa:1.0 localhost:5000/web-demo-ivutpa:1.0
 ```
 Разбор команды:  
-tag — создать псевдоним образа  
-web-demo-ivutpa:1.0 — исходный локальный образ  
-localhost:5000/web-demo-ivutpa:1.0 — новый тег с адресом registry  
+**tag** — создать псевдоним образа  
+**web-demo-ivutpa:1.0** — исходный локальный образ  
+**localhost:5000/web-demo-ivutpa:1.0** — новый тег с адресом registry  
 
 <img width="798" height="73" alt="image" src="https://github.com/user-attachments/assets/b4e89137-1a77-4780-a057-0e6e0eb72bc4" />
 
