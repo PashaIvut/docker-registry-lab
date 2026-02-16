@@ -43,6 +43,7 @@ docker build -t web-demo-ivutpa:1.0 .
 **-t** - флаг --tag - присвоить имя и тег образу  
 **web-demo-ivutpa:1.0**	- имя образа: web-demo-ivutpa, тег: 1.0 (версия)  
 **.**	- контекст сборки - текущая папка  
+
 Образ появился.
 <img width="1062" height="102" alt="image" src="https://github.com/user-attachments/assets/2c074dd6-b223-425e-840e-0dfb6d492b5d" />
 
