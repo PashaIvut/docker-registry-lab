@@ -27,6 +27,13 @@ _catalog - специальный эндпоинт, возвращающий с�
 
 <img width="651" height="111" alt="image" src="https://github.com/user-attachments/assets/c61bca42-b076-4161-b56b-5fa97ba3aaa6" />
 
+### 3) Мини-проект
+Создадим папку web-demo-ivutpa и файлы index.html и Dockerfile.
+<img width="889" height="255" alt="image" src="https://github.com/user-attachments/assets/bfdaabcf-5a8b-46c7-a4bf-7dcd451e5f90" />  
+<img width="697" height="97" alt="image" src="https://github.com/user-attachments/assets/0762ac38-d69a-4244-a269-a4b375e3779a" />
+
+
+
 
 
 
