@@ -135,7 +135,7 @@ docker tag web-demo-ivutpa:2.0 localhost:5000/web-demo-ivutpa:2.0
 ```bash
 docker push localhost:5000/web-demo-ivutpa:2.0
 ```
-<img width="1189" height="284" alt="image" src="https://github.com/user-attachments/assets/406b3d15-3ab8-4aed-a01b-e214c9c5a39f" />  
+<img width="1189" height="284" alt="image" src="https://github.com/user-attachments/assets/406b3d15-3ab8-4aed-a01b-e214c9c5a39f" />    
 
 
 Проверим теги через API:
