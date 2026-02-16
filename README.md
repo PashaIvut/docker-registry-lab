@@ -106,10 +106,10 @@ docker run -d -p 8080:80 --name web-1 localhost:5000/web-demo-ivutpa:1.0
 <img width="1319" height="54" alt="image" src="https://github.com/user-attachments/assets/a70be394-9098-4830-bc87-b9a8b2b3c088" />  
 
 Проверим, что контейнер работает:
-<img width="1878" height="117" alt="image" src="https://github.com/user-attachments/assets/730f5d61-3628-43ba-8911-6636d3b96937" />
+<img width="1878" height="117" alt="image" src="https://github.com/user-attachments/assets/730f5d61-3628-43ba-8911-6636d3b96937" />  
 
-Откроем браузер и перейдем по адресу http://localhost:8080:
-<img width="422" height="282" alt="image" src="https://github.com/user-attachments/assets/828c4aae-e810-495d-a6e1-520424b69191" /> 
+Откроем браузер и перейдем по адресу http://localhost:8080:  
+<img width="422" height="282" alt="image" src="https://github.com/user-attachments/assets/828c4aae-e810-495d-a6e1-520424b69191" />   
 (Проблема с кодировкой, но все работает)
 
 
