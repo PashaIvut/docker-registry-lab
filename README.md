@@ -145,6 +145,20 @@ curl http://localhost:5000/v2/web-demo-ivanov/tags/list
 <img width="1094" height="158" alt="image" src="https://github.com/user-attachments/assets/0ceb0c9b-5441-49d0-bb4f-8495bc2f4717" />
 
 
+10.2 Второй запуск на другом порту
+Запустим второй контейнер с версией 2.0:
+<img width="1295" height="51" alt="image" src="https://github.com/user-attachments/assets/05cca5da-bbbe-4a68-8438-74b5c87ecf4c" />  
+
+Проверка:
+<img width="372" height="277" alt="image" src="https://github.com/user-attachments/assets/3a56508f-17af-4dcc-bc38-8bca32b4402e" />  
+<img width="353" height="327" alt="image" src="https://github.com/user-attachments/assets/d45b25fe-9efc-4230-a19b-26c4bf2e4f20" />  
+<img width="748" height="306" alt="image" src="https://github.com/user-attachments/assets/ed7b295f-8a96-4199-8cc6-5cf2b120929d" />  
+<img width="749" height="372" alt="image" src="https://github.com/user-attachments/assets/c4036c33-b67b-48ac-9054-41a3a36efb3b" />
+
+
+
+
+
 
 
 
