@@ -47,6 +47,19 @@ docker build -t web-demo-ivutpa:1.0 .
 Образ появился.
 <img width="1062" height="102" alt="image" src="https://github.com/user-attachments/assets/2c074dd6-b223-425e-840e-0dfb6d492b5d" />
 
+### 5) Привязка образа к registry через tag
+Перетегируем образ с помощью команды:
+```bash
+docker tag web-demo-ivutpa:1.0 localhost:5000/web-demo-ivutpa:1.0
+```
+Разбор команды:
+tag — создать псевдоним образа  
+web-demo-ivutpa:1.0 — исходный локальный образ  
+localhost:5000/web-demo-ivutpa:1.0 — новый тег с адресом registry  
+<img width="798" height="73" alt="image" src="https://github.com/user-attachments/assets/b4e89137-1a77-4780-a057-0e6e0eb72bc4" />
+
+
+
 
 
 
