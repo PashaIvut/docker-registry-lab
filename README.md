@@ -149,7 +149,7 @@ curl http://localhost:5000/v2/web-demo-ivanov/tags/list
 Запустим второй контейнер с версией 2.0:
 <img width="1295" height="51" alt="image" src="https://github.com/user-attachments/assets/05cca5da-bbbe-4a68-8438-74b5c87ecf4c" />  
 
-Проверка:
+Проверка:  
 <img width="372" height="277" alt="image" src="https://github.com/user-attachments/assets/3a56508f-17af-4dcc-bc38-8bca32b4402e" />  
 <img width="353" height="327" alt="image" src="https://github.com/user-attachments/assets/d45b25fe-9efc-4230-a19b-26c4bf2e4f20" />  
 <img width="748" height="306" alt="image" src="https://github.com/user-attachments/assets/ed7b295f-8a96-4199-8cc6-5cf2b120929d" />  
